@@ -42,8 +42,8 @@ main #banner {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 5.4rem 11.3rem 0;
   position: relative;
+  padding-top: 5.4rem;
 }
 main #banner .banner-header_mb {
   display: none !important;
@@ -60,6 +60,7 @@ main #banner .banner-header {
   border-radius: 8px;
   z-index: 3;
   background: linear-gradient(to right, #6d2400, #e1b600);
+  margin: 0 11.3rem;
 }
 main #banner .banner-header .logo {
   color: #fff;
@@ -125,6 +126,7 @@ main #banner .banner-container {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding: 0 11.3rem;
 }
 main #banner .banner-container .banner-container_left .container-left-top {
   display: flex;
@@ -579,6 +581,7 @@ main #product .product-container .product-left .wrapper-rocket {
 }
 main #product .product-container .product-left .wrapper-rocket img {
   width: 100%;
+  border-radius: 30px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -687,6 +690,7 @@ main #product .product-container .product-right .wrapper-ufo {
 }
 main #product .product-container .product-right .wrapper-ufo img {
   width: 100%;
+  border-radius: 30px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1205,6 +1209,13 @@ main #footer .footer-right .footer-community .footer-social .mb {
   }
 }
 @media screen and (max-width: 1439px) {
+  main #banner .banner-header {
+    margin: 0 6.3rem 0;
+    gap: 6rem;
+  }
+  main #banner .banner-container {
+    padding: 0 6.3rem;
+  }
   main #banner .banner-container .banner-container_left .container-left-top img {
     max-width: 50%;
   }
@@ -1365,6 +1376,12 @@ main #footer .footer-right .footer-community .footer-social .mb {
   }
   main #banner {
     min-height: 84vh;
+  }
+  main #banner .banner-header {
+    padding: 0.5rem 3rem;
+  }
+  main #banner .banner-header .nav {
+    justify-content: space-between;
   }
   main #banner .banner-container .banner-container_left .container-left-top img {
     max-width: 45%;
@@ -1678,10 +1695,11 @@ main #footer .footer-right .footer-community .footer-social .mb {
 }
 @media screen and (max-width: 768px) {
   main #banner {
-    padding: 5.4rem 5.3rem 0;
+    padding: 5.4rem 0 0;
   }
   main #banner .banner-header {
     padding: 0.5rem 2rem;
+    margin: 0 2rem 0;
     gap: 0 !important;
   }
   main #banner .banner-header .nav {
@@ -1694,8 +1712,8 @@ main #footer .footer-right .footer-community .footer-social .mb {
     padding: 0px 4px !important;
   }
   main #banner .banner-container {
-    padding: 0 !important;
-    margin-left: 3rem !important;
+    padding: 0 3rem !important;
+    margin-top: 1rem;
     gap: 1rem;
   }
   main #banner .banner-container p {
@@ -1724,6 +1742,9 @@ main #footer .footer-right .footer-community .footer-social .mb {
   main .section-group #about .about-container .tablet-about {
     right: 0 !important;
     justify-content: flex-end;
+  }
+  main #intro {
+    min-height: 90% !important;
   }
   main #intro .intro-container {
     gap: 4rem !important;
@@ -1795,7 +1816,7 @@ main #footer .footer-right .footer-community .footer-social .mb {
     display: flex !important;
   }
   main #banner {
-    min-height: 90vh !important;
+    min-height: 85vh !important;
     padding: 2rem 0 0 !important;
     z-index: 11;
   }
@@ -1824,7 +1845,7 @@ main #footer .footer-right .footer-community .footer-social .mb {
        object-fit: cover;
   }
   main #banner .banner-header_mb .header-mb .menu svg {
-    fill: #75faff;
+    fill: #000;
   }
   main #banner .banner-header_mb .sub-menu-overlay {
     display: none;
@@ -1865,9 +1886,8 @@ main #footer .footer-right .footer-community .footer-social .mb {
     fill: white;
   }
   main #banner .banner-header_mb .btn-buy button {
-    border: 3px solid #fff;
-    background: #75faff;
-    box-shadow: -12px 6px 14.4px 0 #fff inset, 18px -8px 14.4px 0 #fff inset, -1px 3px 0 0 #000;
+    border: 3px solid #000;
+    background: #fccc00;
     color: #000;
     padding: 5px 14px;
     font-weight: bold;
@@ -2193,6 +2213,9 @@ main #footer .footer-right .footer-community .footer-social .mb {
   }
 }
 @media screen and (max-width: 450px) {
+  main #banner {
+    min-height: 80vh !important;
+  }
   main .section-group #about h1 {
     font-size: 24px !important;
   }
