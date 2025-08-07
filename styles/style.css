@@ -133,9 +133,6 @@ main #banner .banner-container .banner-container_left .container-left-top {
   align-items: center;
   padding: 2rem 0 0;
 }
-main #banner .banner-container .banner-container_left .container-left-top img {
-  margin-left: 2rem;
-}
 main #banner .banner-container .banner-container_left .container-left-center div p {
   color: #fff;
   font-size: 20px;
@@ -1501,6 +1498,10 @@ main #footer .footer-right .footer-community .footer-social .mb {
   }
 }
 @media screen and (max-width: 1024px) {
+  main #banner .banner-header {
+    gap: 4rem;
+    padding: 0.5rem 2rem;
+  }
   main #banner .banner-header .logo {
     font-size: 20px !important;
   }
@@ -1700,7 +1701,7 @@ main #footer .footer-right .footer-community .footer-social .mb {
   main #banner .banner-header {
     padding: 0.5rem 2rem;
     margin: 0 2rem 0;
-    gap: 0 !important;
+    gap: 2rem !important;
   }
   main #banner .banner-header .nav {
     font-size: 16px !important;
