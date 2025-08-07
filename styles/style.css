@@ -1237,6 +1237,7 @@ main #footer .footer-right .footer-community .footer-social .mb {
   }
   main .section-group #about .about-container .about-content {
     padding-right: 0;
+    padding-top: 7rem;
   }
   main .section-group #about .about-container .about-content h1 {
     font-size: 7rem;
@@ -1745,7 +1746,7 @@ main #footer .footer-right .footer-community .footer-social .mb {
     justify-content: flex-end;
   }
   main #intro {
-    min-height: 90% !important;
+    min-height: 90vh !important;
   }
   main #intro .intro-container {
     gap: 4rem !important;
