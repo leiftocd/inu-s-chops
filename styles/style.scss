@@ -125,11 +125,12 @@ main {
             width: 100%;
             justify-content: space-between;
             padding: 0 11.3rem;
+            margin-top: 6rem;
             .banner-container_left {
                 .container-left-top {
                     display: flex;
                     align-items: center;
-                    padding: 2rem 0 0;
+                    padding: 2rem 0 1rem;
                     img {
                     }
                 }
@@ -1507,6 +1508,7 @@ main {
                 }
             }
             .banner-container {
+                margin-top: 3rem;
                 .banner-container_left {
                     // padding: 0 !important;
                     .container-left-top {
@@ -2516,6 +2518,9 @@ main {
     main {
         #banner {
             min-height: 80vh !important;
+            .banner-container {
+                padding: 0 !important;
+            }
         }
         .section-group {
             #about {

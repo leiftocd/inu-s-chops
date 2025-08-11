@@ -127,11 +127,12 @@ main #banner .banner-container {
   width: 100%;
   justify-content: space-between;
   padding: 0 11.3rem;
+  margin-top: 6rem;
 }
 main #banner .banner-container .banner-container_left .container-left-top {
   display: flex;
   align-items: center;
-  padding: 2rem 0 0;
+  padding: 2rem 0 1rem;
 }
 main #banner .banner-container .banner-container_left .container-left-center div p {
   color: #fff;
@@ -1381,6 +1382,9 @@ main #footer .footer-right .footer-community .footer-social .mb {
   main #banner .banner-header .nav {
     justify-content: space-between;
   }
+  main #banner .banner-container {
+    margin-top: 3rem;
+  }
   main #banner .banner-container .banner-container_left .container-left-top img {
     max-width: 45%;
   }
@@ -2217,6 +2221,9 @@ main #footer .footer-right .footer-community .footer-social .mb {
 @media screen and (max-width: 450px) {
   main #banner {
     min-height: 80vh !important;
+  }
+  main #banner .banner-container {
+    padding: 0 !important;
   }
   main .section-group #about h1 {
     font-size: 24px !important;
